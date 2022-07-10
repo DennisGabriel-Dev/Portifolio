@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header class="header-wrapper">
@@ -21,10 +21,10 @@
                     <nav class="menu-items">
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="./index.html">Home</a>
                             </li>
                             <li>
-                                <a href="#">Sobre</a>
+                                <a href="sobre.html">Sobre</a>
                             </li>
                             <li>
                                 <a href="#">Projetos</a>
@@ -37,17 +37,17 @@
         <h1>Dennis Gabriel</h1>
         <h2>Back-end Developer</h2>
         <div class="social-media">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
+            <a href="#" onclick="perfilGitHub()">GitHub</a>
+            <a href="#" onclick="perfilLinkedin()">LinkedIn</a>
         </div>
     </header>
     <main class="container">
         <div class="card-container">
             <div class="card-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum dolor possimus adipisci quibusdam vero laborum deserunt est voluptates obcaecati consequuntur tempore sapiente repudiandae, labore numquam, ex illum commodi a. Nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, veniam quae dicta tenetur laudantium repellendus dolores. Totam exercitationem magni quaerat suscipit fugit necessitatibus reprehenderit, veniam corporis ab numquam velit voluptas!
+                No GitHub coloco meus projetos pessoais e corporativos/estudantis. Estou a cada dia buscando melhorar meus códigos e minha perfomance como Desenvolvedor de Sistemas.
             </div>
             <div class="card">
-                <div class="card-wrapper">
+                <div class="card-wrapper" onclick="perfilGitHub()">
                     <h2>GitHub</h2>
                     <p>Veja meus projetos</p>
                 </div>
@@ -55,24 +55,21 @@
         </div>
         <div class="card-container">
             <div class="card">
-                <div class="card-wrapper">
-                    <h2>LinledIn</h2>
+                <div class="card-wrapper" onclick="perfilLinkedin()">
+                    <h2>LinkedIn</h2>
                     <p>Acompanhe minha carreira</p>
                 </div>
             </div>
             <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor possimus adipisci quibusdam vero laborum deserunt est voluptates obcaecati consequuntur tempore sapiente repudiandae, labore numquam, ex illum commodi a. Nesciunt. 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, veniam quae dicta tenetur laudantium repellendus dolores. Totam exercitationem magni quaerat suscipit fugit necessitatibus reprehenderit, veniam corporis ab numquam velit voluptas!
-               
+                No LinkedIn costumo colocar minhas certificações, pretendo em breve divulgar alguns projetos que estou fazendo. 
             </div>
         </div>
          <div class="card-container">
             <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor possimus adipisci quibusdam vero laborum deserunt est voluptates obcaecati consequuntur tempore sapiente repudiandae, labore numquam, ex illum commodi a. Nesciunt. 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, veniam quae dicta tenetur laudantium repellendus dolores. Totam exercitationem magni quaerat suscipit fugit necessitatibus reprehenderit, veniam corporis ab numquam velit voluptas!
+                Se estiver disposto(a) a me conhecer melhor, me siga no Instagram, adoro conhecer pessoas novas e bater um papo sobre tecnologia, que é o que mais amo. =D
             </div>
             <div class="card">
-                <div class="card-wrapper">
+                <div class="card-wrapper" onclick="perfilInstagram()">
                     <h2>Instagram</h2>
                     <p>Veja mais do meu dia a dia</p>
                 </div>
@@ -82,5 +79,6 @@
     <footer class="footer">
         &copy Feito por Dennis Gabriel
     </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

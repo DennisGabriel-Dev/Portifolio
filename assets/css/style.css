@@ -12,7 +12,7 @@ body{
 .header-wrapper{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, #050404, #2E1C20, #4a1942, #893168);
+    background: linear-gradient(-45deg, #050404, #4b1d1d, #721919, #ad1010);
     background-size:  400% 400%;
     display: flex;
     flex-direction: column;
@@ -211,7 +211,7 @@ a:hover{
     height: 300px;
     width: 400px;
     margin: 3rem 0 0 0;
-    background-image: url('./imagem.jpg');
+    background-image: url('/assets/img/imagem.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,7 +286,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2E1C20;
+    background-color: #570a0a;
 }
 
 /* RESPONSIVO */
