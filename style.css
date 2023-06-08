@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header compnents*/
+header{
+    min-height: 100vh;
+}
+
+/*nav*/
+.nav__header{
+    text-align: left;
+    background-color: #183E33;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    
+}
+.list__header{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+}
+
+.list__item{
+    margin-right: 65px;
+    color: #C2C0A6;
+    text-decoration: none;
+    font-size: 24px;
+    font-family:'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.list__item:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.list__header:nth-child(1){
+    margin-left: 65px;
+}
+
+/*Content Header*/
+.content{
+    background-color: #C2C0A6;
+}
+
+.intro__content{
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 65px;
+    padding-left: 150px;
+    display: flex;
+    font-size: 38px;
+    color: #183E33 ;
+}
+
+.description__content{
+    width: 50%;  
+}
+
+
+@keyframes t{
+    90%,100% {width:100%}
+}
+  
+  
+.foto__scope{
+    width: 500px;
+    height: 500px;
+}
+
+.foto__dennis{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+}

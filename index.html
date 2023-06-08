@@ -3,82 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <header class="header-wrapper">
-        <div class="header">
-            <div class="checkbox-container">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                    <label class="checkbox" for="toggle">
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                        <div class="trace"></div>
-                    </label>
-                    <div class="menu"></div>
-                    <nav class="menu-items">
-                        <ul>
-                            <li>
-                                <a href="./index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="sobre.html">Sobre</a>
-                            </li>
-                            <li>
-                                <a href="#">Projetos</a>
-                            </li>
-                        </ul>
-                    </nav>
+    <header>
+        <div>
+            <nav class="nav__header">
+                <ul class="list__header">
+                    <li><a href="#" class="list__item">Projects</a></li>
+                    <li><a href="#" class="list__item">About</a></li>
+                    <li><a href="#" class="list__item">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="intro__content">
+                <h1 class="description__content">Hi, my name is Dennis,I’m FullStack Developer.</h1>
+                <div class="foto__scope">
+                    <img class="foto__dennis" src="foto-dennis.png" alt="foto-dennis">
                 </div>
             </div>
-        </div>
-        <h1>Dennis Gabriel</h1>
-        <h2>Back-end Developer</h2>
-        <div class="social-media">
-            <a href="#" onclick="perfilGitHub()">GitHub</a>
-            <a href="#" onclick="perfilLinkedin()">LinkedIn</a>
+            
         </div>
     </header>
-    <main class="container">
-        <div class="card-container">
-            <div class="card-text">
-                No GitHub coloco meus projetos pessoais e corporativos/estudantis. Estou a cada dia buscando melhorar meus códigos e minha perfomance como Desenvolvedor de Sistemas.
-            </div>
-            <div class="card">
-                <div class="card-wrapper" onclick="perfilGitHub()">
-                    <h2>GitHub</h2>
-                    <p>Veja meus projetos</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="card">
-                <div class="card-wrapper" onclick="perfilLinkedin()">
-                    <h2>LinkedIn</h2>
-                    <p>Acompanhe minha carreira</p>
-                </div>
-            </div>
-            <div class="card-text">
-                No LinkedIn costumo colocar minhas certificações, pretendo em breve divulgar alguns projetos que estou fazendo. 
-            </div>
-        </div>
-         <div class="card-container">
-            <div class="card-text">
-                Se estiver disposto(a) a me conhecer melhor, me siga no Instagram, adoro conhecer pessoas novas e bater um papo sobre tecnologia, que é o que mais amo. =D
-            </div>
-            <div class="card">
-                <div class="card-wrapper" onclick="perfilInstagram()">
-                    <h2>Instagram</h2>
-                    <p>Veja mais do meu dia a dia</p>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        &copy Feito por Dennis Gabriel
-    </footer>
-    <script src="./assets/js/script.js"></script>
 </body>
 </html>
