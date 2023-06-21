@@ -11,6 +11,7 @@
 /*header compnents*/
 header{
     min-height: 100vh;
+    background-color: #C2C0A6;
 }
 
 /*nav*/
@@ -48,7 +49,8 @@ header{
 
 /*Content Header*/
 .content{
-    background-color: #C2C0A6;
+    
+    align-items: center;
 }
 
 .intro__content{
@@ -78,5 +80,55 @@ header{
 .foto__dennis{
     width: 400px;
     height: 400px;
-    margin-top: 100px;
+    margin-top: 133px;
+}
+
+/*main components*/
+.content__main{
+    padding-left: 109px;
+    padding-right: 109px;
+    color: #faf6c8;
+    background-color: #6A8C69;
+}
+
+/*project styles*/
+.chess-system__title ,.jogo-da-memoria__title{
+    padding-top: 40px;
+    color: #200AAD;
+    padding-bottom: 20px;
+    font-size: 38px;
+}
+
+.chess-system__title a , .jogo-da-memoria__title a{
+    text-decoration: none;
+    color: #200AAD;
+}
+
+.chess-system__title a:hover ,.jogo-da-memoria__title a:hover{
+    text-decoration: underline;
+}
+
+.chess-system__content ,.jogo-da-memoria__content{
+    display: flex;
+}
+.chess-system__img{
+    width: 216px;
+    height: 216px;
+}
+
+.chess-system__description, .jogo-da-memoria__description{
+    margin-left: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.jogo-da-memoria__img{
+    width: 350px;
+    height: 250px;
+}
+
+.jogo-da-memoria__description{
+    margin-left: 0;
+    margin-right: 30px;
 }
