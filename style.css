@@ -2,6 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+::selection{
+    background-color: #183E33;
+    color: white;
+}
+
+/*SCROLL*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #4b5a56;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #a1a1a1;
+  }
+  
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -63,8 +85,15 @@ header{
 }
 
 .description__content{
-    width: 50%;  
+    width: 50%;
+    
 }
+
+.fstack{
+    color: #02643a;
+}
+
+
 
 
 @keyframes t{
@@ -75,6 +104,7 @@ header{
 .foto__scope{
     width: 500px;
     height: 500px;
+    display: inline-block;
 }
 
 .foto__dennis{
@@ -84,39 +114,40 @@ header{
 }
 
 /*main components*/
-.content__main{
+.projects{
     padding-left: 109px;
     padding-right: 109px;
     color: #faf6c8;
     background-color: #6A8C69;
+    padding-bottom: 30px;
 }
 
 /*project styles*/
-.chess-system__title ,.jogo-da-memoria__title{
+.chess-system__title ,.jogo-da-memoria__title, .Portfolio-Ingles-Instrumental__title, .LinearRegression__title{
     padding-top: 40px;
     color: #200AAD;
     padding-bottom: 20px;
     font-size: 38px;
 }
 
-.chess-system__title a , .jogo-da-memoria__title a{
+.chess-system__title a , .jogo-da-memoria__title a,.Portfolio-Ingles-Instrumental__title a, .LinearRegression__title a{
     text-decoration: none;
     color: #200AAD;
 }
 
-.chess-system__title a:hover ,.jogo-da-memoria__title a:hover{
+.chess-system__title a:hover ,.jogo-da-memoria__title a:hover, .Portfolio-Ingles-Instrumental__title a:hover, .LinearRegression__title a:hover{
     text-decoration: underline;
 }
 
-.chess-system__content ,.jogo-da-memoria__content{
+.chess-system__content ,.jogo-da-memoria__content, .Portfolio-Ingles-Instrumental__content,.Portfolio-Ingles-Instrumental__content , .LinearRegression__content{
     display: flex;
 }
-.chess-system__img{
+.chess-system__img {
     width: 216px;
     height: 216px;
 }
 
-.chess-system__description, .jogo-da-memoria__description{
+.chess-system__description, .jogo-da-memoria__description , .Portfolio-Ingles-Instrumental__description, .LinearRegression__description{
     margin-left: 20px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
@@ -128,7 +159,49 @@ header{
     height: 250px;
 }
 
-.jogo-da-memoria__description{
+.jogo-da-memoria__description, .LinearRegression__description{
     margin-left: 0;
     margin-right: 30px;
 }
+
+
+
+
+.Portfolio-Ingles-Instrumental__img{
+    width: 350px;
+    height: 220px;
+}
+
+.LinearRegression__img{
+    width: 300px;
+    height: 300px;
+}
+
+
+/*ABOUT*/
+.about{
+    background-color: #183E33;
+    color: #C2C0A6;
+}
+
+
+.content__about{
+    padding: 60px;
+}
+
+.content__about h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.introduction__about{
+    padding-left: 30px;
+    padding-right: 60px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2rem;
+}
+
+.I_love{
+    color: #fffab1;
+}
+

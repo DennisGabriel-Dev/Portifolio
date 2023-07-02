@@ -13,14 +13,19 @@
             <nav class="nav__header">
                 <ul class="list__header">
                     <li><a href="#main" class="list__item">Projects</a></li>
-                    <li><a href="#" class="list__item">About</a></li>
+                    <li><a href="#about" class="list__item">About</a></li>
                     <li><a href="#" class="list__item">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="content">
             <div class="intro__content">
-                <h1 class="description__content">Hi, my name is Dennis, I’m FullStack Developer.</h1>
+                <h1 class="description__content">Hi, my name is Dennis, I'm a 
+                    <div class="fstack">
+                        Full Stack Developer
+                    </div>
+                </h1>
+                    
                 <div class="foto__scope">
                     <img class="foto__dennis" src="foto-dennis.png" alt="foto-dennis">
                 </div>
@@ -29,12 +34,12 @@
         </div>
     </header>
     <main id="main">
-        <div class="content__main">
+        <div class="projects">
             <div class="chess-system__div">
                 <h1 class="chess-system__title"><a href="https://github.com/DennisGabriel-Dev/chess-system-java" target="__blank">Chess-System</a></h1>
                 <div class="chess-system__content">
                     <img src="./chess-system.png" alt="chess system" class="chess-system__img">
-                    <p class="chess-system__description">This is a chess game that I make during a Java course by Udemy. I used many matrices and OOP concepts. </p>
+                    <p class="chess-system__description">This is a chess game that I make during a Java course. I used many matrices and OOP concepts.</p>
                 </div>
             </div>
             <div class="jogo-da-memoria__div">
@@ -46,7 +51,67 @@
                     <img src="./jogo-da-memoria.png" alt="jogo da memória" class="jogo-da-memoria__img">
                 </div>
             </div>
+
+            <div class="Portfolio-Ingles-Instrumental__div">
+                <h1 class="Portfolio-Ingles-Instrumental__title">
+                    <a href="https://dennisgabriel-dev.github.io/Portfolio-Ingles-Instrumental/">
+                        Portifolio Inglês Instrumental
+                    </a>
+                </h1>
+                <div class="Portfolio-Ingles-Instrumental__content">    
+                    <img src="./English Portfolio.png" alt="English Portfolio" class="Portfolio-Ingles-Instrumental__img">
+                    <p class="Portfolio-Ingles-Instrumental__description">
+                    A project that I developmented for college subject of Inglês Instrumental. I used HTML, CSS and a lib(magic-mouse).
+                    </p>
+                   
+                </div>
+            </div>
+
+            <div class="LinearRegression__div">
+                <h1 class="LinearRegression__title">
+                    <a href="https://github.com/DennisGabriel-Dev/LinearRegression">
+                        Linear Regression
+                    </a>
+                </h1>
+                <div class="LinearRegression__content content__general">
+                    <p class="LinearRegression__description">I developed a Linear Regression to predict prices of medical plans based on age information provided by the user with Python Language.</p>
+                    <img src="./LinearRegression.png" alt="Linear Regression" class="LinearRegression__img">
+                </div>
+            </div>
         </div>
+        <div class="about" id="about">
+            <div class="content__about">
+                <h1>About me:</h1>
+                <br>
+                <br>
+                <h2 class="introduction__about">I'm former in Information Technician by the Instituo Federal do Maranhão(IFMA), in this moment I'm course in Internet Systems by the IFMA too.
+                <br>
+                <br>
+                <div class="I_love">
+                    I love learning new things, especially when it comes to technology.
+                    <br>
+                    My wish is to be a good Full Stack Developer. Therefore, every day I study a lot, because the realization of big dreams comes with a lot of effort.
+                </div>
+                </h2>
+            </div>
+
+        </div>
+
     </main>
+
+    <p id="typing-text"></p>
+
 </body>
+<script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
+<script type="text/javascript">
+    options = {
+	"cursorOuter": "circle-basic",
+	"hoverEffect": "pointer-blur",
+	"hoverItemMove": false,
+	"defaultCursor": true,
+	"outerWidth": 30,
+	"outerHeight": 30
+      };
+    magicMouse(options);
+</script>
 </html>
