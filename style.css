@@ -205,3 +205,35 @@ header{
     color: #fffab1;
 }
 
+
+/*Footer*/
+.contact{
+    padding: 60px;
+    background-color: #526850;
+}
+
+.content__contact{
+    color: #C2C0A6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact__elements{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    justify-content: space-around;
+}
+
+.pair h3{
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.pair a{
+    color: #fffab1;
+    text-decoration: none;
+}
+
+.pair a:hover{
+    text-decoration: underline;
+}
